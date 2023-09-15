@@ -1,3 +1,10 @@
 @tailwind base;
+@layer base {
+    i {
+      @apply text-3xl;
+    }
+}
+
 @tailwind components;
 @tailwind utilities;
+
