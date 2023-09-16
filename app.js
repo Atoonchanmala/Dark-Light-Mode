@@ -17,7 +17,6 @@ icon.addEventListener("click",function(){
         Mode.classList.add("LightSticky");
         Mode.classList.remove("DarkSticky");
         Mode.style.transition = "2s";
-        icon.style.transition = "2s";
 
     }
     else{
@@ -31,6 +30,5 @@ icon.addEventListener("click",function(){
         Mode.classList.remove("LightSticky");
         Mode.classList.remove("bg-white");
         Mode.style.transition = "2s";
-        icon.style.transition = "2s";
     }
 })
